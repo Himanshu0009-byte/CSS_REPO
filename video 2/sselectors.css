@@ -1,0 +1,41 @@
+/* UNIVERSAL SELECTORS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ELEMENT SELECTOR */
+
+p{
+    color: blue;
+}
+/* ID SELECTORS */
+#class{
+    background-color: rgb(193, 5, 27);
+}
+/* CLASS SELECTORS */
+.Himanshu{
+    color: darkgreen;
+}
+/* CHILD SELECTOR */
+article > p {
+color: darkolivegreen;
+}
+/* PSEUDO SELECTOR */
+a:hover{
+    background-color: deeppink;
+}
+a:visited{
+    color: darkred;
+}
+a:active{
+    background-color: indianred;
+}
+a:link{
+    color: black;
+}
+/* DESCENDENT SELECTOR */
+cpation nav{
+  color: rgb(51, 255, 0);
+}
