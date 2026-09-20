@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SPECIFICITY</title>
+    <style>
+        .css{
+            color: bisque;
+        }
+        .nodejs{
+            color: blueviolet;
+        }
+        .javascript{
+
+            color: chocolate;
+        }
+        h1{
+            color: darkgoldenrod; /*(this specifies that position and order of apperance which means that last me jo property and value pass hoggi selector ko wahi css apply hogi)*/
+        } 
+/* abb jaha selectors change ho jayenge waha specificity ke according css style apply hogi  it tell that which selector is more specific*/
+/* agar kisi css me important key word dal diya toh uski specificity badh jayegi aur wahi css apply hoga */
+/* specificity can also be calculated on the basis of the type of selectors
+1.universal selector :0pt
+2.element selector or pseudo selector:1pt
+3.class selector or attribute or pseudo class:10pt
+4.id selector:100pt
+5. inline style:1000pt
+6. if important key word comes with inline style:10000pt */
+
+    </style>
+</head>
+<body>
+    <h1 class="css nodejs javascript">HOW ARE YOU</h1>
+    
+</body>
+</html>
